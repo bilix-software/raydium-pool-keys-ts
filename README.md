@@ -1,4 +1,7 @@
 # Raydium Pool Keys Fetcher
+![npm version](https://img.shields.io/npm/v/raydium-pool-keys.svg)
+![npm downloads](https://img.shields.io/npm/dm/raydium-pool-keys.svg)
+![license](https://img.shields.io/npm/l/raydium-pool-keys.svg)
 
 A TypeScript utility for fetching Raydium pool keys for a given token address on the Solana blockchain. This package allows you to get market IDs and liquidity pool keys using the Raydium SDK and Solana web3.js. 
 Important: You need an RPC that has the RPC call "getProgramAccounts" enabled. This will not work with the public mainnet-beta rpc, but will work fine free tier RPC's from [Helius](https://www.helius.dev/) for example.

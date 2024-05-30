@@ -1,6 +1,6 @@
 {
   "name": "raydium-pool-keys",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript utility for fetching Raydium pool keys or Market pair for a given token address on the Solana blockchain.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

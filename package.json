@@ -1,0 +1,39 @@
+{
+  "name": "raydium-pool-keys",
+  "version": "1.0.1",
+  "description": "A TypeScript utility for fetching Raydium pool keys or Market pair for a given token address on the Solana blockchain.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solana",
+    "raydium",
+    "typescript",
+    "sdk",
+    "liquidity",
+    "pool"
+  ],
+  "author": "bilixsoftware",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bilix-software/raydium-pool-keys-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bilix-software/raydium-pool-keys-ts/issues"
+  },
+  "homepage": "https://github.com/bilix-software/raydium-pool-keys-ts#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@openbook-dex/openbook": "^0.0.9",
+    "@raydium-io/raydium-sdk": "^1.3.1-beta.52",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.91.8"
+  }
+}
